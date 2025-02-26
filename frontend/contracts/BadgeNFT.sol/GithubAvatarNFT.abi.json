@@ -1,0 +1,201 @@
+[
+    {
+        "type": "constructor",
+        "inputs": [],
+        "stateMutability": "nonpayable"
+    },
+    {
+        "type": "function",
+        "name": "AVATAR_URI",
+        "inputs": [],
+        "outputs": [{"type": "string"}],
+        "stateMutability": "view"
+    },
+    {
+        "type": "function",
+        "name": "approve",
+        "inputs": [
+            {"type": "address"},
+            {"type": "uint256"}
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+    },
+    {
+        "type": "function",
+        "name": "balanceOf",
+        "inputs": [{"type": "address"}],
+        "outputs": [{"type": "uint256"}],
+        "stateMutability": "view"
+    },
+    {
+        "type": "function",
+        "name": "getApproved",
+        "inputs": [{"type": "uint256"}],
+        "outputs": [{"type": "address"}],
+        "stateMutability": "view"
+    },
+    {
+        "type": "function",
+        "name": "isApprovedForAll",
+        "inputs": [
+            {"type": "address"},
+            {"type": "address"}
+        ],
+        "outputs": [{"type": "bool"}],
+        "stateMutability": "view"
+    },
+    {
+        "type": "function",
+        "name": "mintNFT",
+        "inputs": [{"type": "address"}],
+        "outputs": [{"type": "uint256"}],
+        "stateMutability": "nonpayable"
+    },
+    {
+        "type": "function",
+        "name": "name",
+        "inputs": [],
+        "outputs": [{"type": "string"}],
+        "stateMutability": "view"
+    },
+    {
+        "type": "function",
+        "name": "owner",
+        "inputs": [],
+        "outputs": [{"type": "address"}],
+        "stateMutability": "view"
+    },
+    {
+        "type": "function",
+        "name": "ownerOf",
+        "inputs": [{"type": "uint256"}],
+        "outputs": [{"type": "address"}],
+        "stateMutability": "view"
+    },
+    {
+        "type": "function",
+        "name": "renounceOwnership",
+        "inputs": [],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+    },
+    {
+        "type": "function",
+        "name": "safeTransferFrom",
+        "inputs": [
+            {"type": "address"},
+            {"type": "address"},
+            {"type": "uint256"}
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+    },
+    {
+        "type": "function",
+        "name": "safeTransferFrom",
+        "inputs": [
+            {"type": "address"},
+            {"type": "address"},
+            {"type": "uint256"},
+            {"type": "bytes"}
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+    },
+    {
+        "type": "function",
+        "name": "selfMint",
+        "inputs": [],
+        "outputs": [{"type": "uint256"}],
+        "stateMutability": "nonpayable"
+    },
+    {
+        "type": "function",
+        "name": "setApprovalForAll",
+        "inputs": [
+            {"type": "address"},
+            {"type": "bool"}
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+    },
+    {
+        "type": "function",
+        "name": "supportsInterface",
+        "inputs": [{"type": "bytes4"}],
+        "outputs": [{"type": "bool"}],
+        "stateMutability": "view"
+    },
+    {
+        "type": "function",
+        "name": "symbol",
+        "inputs": [],
+        "outputs": [{"type": "string"}],
+        "stateMutability": "view"
+    },
+    {
+        "type": "function",
+        "name": "tokenURI",
+        "inputs": [{"type": "uint256"}],
+        "outputs": [{"type": "string"}],
+        "stateMutability": "view"
+    },
+    {
+        "type": "function",
+        "name": "transferFrom",
+        "inputs": [
+            {"type": "address"},
+            {"type": "address"},
+            {"type": "uint256"}
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+    },
+    {
+        "type": "function",
+        "name": "transferOwnership",
+        "inputs": [{"type": "address"}],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+    },
+    {
+        "type": "event",
+        "name": "Approval",
+        "inputs": [
+            {"type": "address", "indexed": true},
+            {"type": "address", "indexed": true},
+            {"type": "uint256", "indexed": true}
+        ],
+        "anonymous": false
+    },
+    {
+        "type": "event",
+        "name": "ApprovalForAll",
+        "inputs": [
+            {"type": "address", "indexed": true},
+            {"type": "address", "indexed": true},
+            {"type": "bool", "indexed": false}
+        ],
+        "anonymous": false
+    },
+    {
+        "type": "event",
+        "name": "OwnershipTransferred",
+        "inputs": [
+            {"type": "address", "indexed": true},
+            {"type": "address", "indexed": true}
+        ],
+        "anonymous": false
+    },
+    {
+        "type": "event",
+        "name": "Transfer",
+        "inputs": [
+            {"type": "address", "indexed": true},
+            {"type": "address", "indexed": true},
+            {"type": "uint256", "indexed": true}
+        ],
+        "anonymous": false
+    }
+]
